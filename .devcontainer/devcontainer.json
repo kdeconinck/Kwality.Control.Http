@@ -6,7 +6,13 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"editor.formatOnSave": true
+				"editor.formatOnSave": true,
+				"files.exclude": {
+					"app/Kwality.Control.Http/bin/": true,
+					"app/Kwality.Control.Http/obj/": true,
+					"app/Kwality.Control.Http.Tests/bin/": true,
+					"app/Kwality.Control.Http.Tests/obj/": true
+				}
 			},
 			"extensions": [
 				"ms-dotnettools.csharp",
