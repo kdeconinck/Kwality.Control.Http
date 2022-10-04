@@ -22,15 +22,4 @@
 # ==                FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 # ==                OTHER DEALINGS IN THE SOFTWARE.
 # ======================================================================================================================
-
-# Indicate that this is the `ROOT` configuration file.
-root = true
-
-# End each file with a final newline.
-[*]
-insert_final_newline = true
-
-# Use a 4 character wide `tab` to indent `*.json` files.
-[*.json]
-indent_size = 4
-indent_style = tab
+FROM mcr.microsoft.com/vscode/devcontainers/dotnet:0-6.0-bullseye-slim
